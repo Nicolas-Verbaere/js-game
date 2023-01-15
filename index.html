@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Game</title>
-</head>
-<body>
-      
-</body>
+      <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Game</title>
+            <link rel="stylesheet" href="style.css">
+      </head>
+      <body>
+            <canvas id="canvas1"></canvas>
+            <div class="controls">
+                  <label for="animations">Choose Animation:</label>
+                  <select name="animations" id="animations">
+                        <option value="idleFront">idleFront</option>
+                        <option value="idleLeft">idleLeft</option>
+                        <option value="idleTop">idleTop</option>
+                        <option value="idleRight">idleRight</option>
+                        <option value="walkFront">walkFront</option>
+                        <option value="walkLeft">walkLeft</option>
+                        <option value="walkTop">walkTop</option>
+                        <option value="walkRight">walkRight</option>
+                  </select>
+            </div>
+
+            <script src="script.js"></script>
+      </body>
 </html>
