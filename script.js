@@ -1,4 +1,4 @@
-let playerState ='idleRight';
+let playerState ='idleFront';
 const dropdown = document.getElementById('animations');
 dropdown.addEventListener('change', function(e){
       playerState = e.target.value;
