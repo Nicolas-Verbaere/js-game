@@ -1,21 +1,26 @@
-#canvas1{
+body {
       background-color: black;
-      border: 3px solid white;
+}
+
+#container {
       position: absolute;
+      width: 800px;
       top: 50%;
+      /* left: -50%; */
       transform: translate(10%, -50%);
+      /* border: 3px solid white; */
+}
+
+#canvas1{
+      position: relative;    
       width: 800px;
       height: 700px;
 }
 
-.controls{
-      position: absolute;
-      z-index: 10;
-      top: 50px;
-      left:50px;
-     
+#slider{
+      width: 100%;
 }
 
-.controls, select, option {
-      font-size: 15px;
+p{
+      color: white;  
 }
