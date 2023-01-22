@@ -11,7 +11,7 @@ const CANVAS_WIDTH = canvas.width = 75;
 const CANVAS_HEIGHT = canvas.height = 75;
 
 const playerImage = new Image();
-playerImage.src = 'images/link.png';
+playerImage.src = '../images/link.png';
 const spriteWidth = 900/10; //(width/comlumn)
 const spriteHeight = 780/8; //(height/rows)
 
